@@ -1,0 +1,26 @@
+.mov{
+    text-align: center;
+    justify-content: center;
+}
+
+.filter-box{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+   width:auto;
+}
+
+@media(max-width:395px){
+    .filter-box{
+       width:fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .car-img{
+        width: 700px;
+        height: 170px;
+    }
+}
+.maincar{
+    margin-top: 88px;
+}

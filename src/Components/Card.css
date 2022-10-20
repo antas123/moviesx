@@ -1,0 +1,39 @@
+.card{
+    margin-top: 10px;
+    background-color: grey;
+    width: 21rem;
+    height: max-content;
+    display: inline-block;
+    /* padding: 1rem; */
+    margin: 1rem;
+}
+.btn{
+    margin: 5px;
+}
+    
+.card :hover{
+   background-color: #3C4048;
+   color: whitesmoke;
+   
+}
+
+.sub-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sub-body h6{
+    margin :0px 65px 10px 65px;
+}
+
+.imdblogo{
+    width: 40px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
